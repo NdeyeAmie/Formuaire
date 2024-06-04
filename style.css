@@ -14,10 +14,9 @@ body {
 
 .container {
   margin: 70px;
-  /* float: right; */
   display: flex;
   justify-content: center;
-  background-color: hsla(0, 0%, 100%, 0.5);
+  background-color: hsla(0, 0%, 100%);
   width: 60%;
   height: 500px;
   margin-left: 17rem;
@@ -99,7 +98,6 @@ i {
 
 @media screen and (max-width: 996px) {
   body {
-    font-family: "Manrope", sans-serif;
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
